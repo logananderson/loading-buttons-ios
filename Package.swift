@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "MHLoadingButton",
+    name: "LoadingButtons",
     platforms: [
         .iOS(.v12),
     ],
     products: [
         .library(
-            name: "MHLoadingButton",
+            name: "LoadingButtons",
             targets: ["LoadingButtons"]),
     ],
     dependencies: [
@@ -17,6 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "LoadingButtons",
-            dependencies: []),
+            dependencies: [],
+            path: "LoadingButtons"),
     ]
 )
