@@ -105,6 +105,8 @@
 		30C93B632301FE3100D66F10 /* UsefulExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulExtensions.swift; sourceTree = "<group>"; };
 		30E13A7922FE115F00EDA5CC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		30E13A7B22FE152800EDA5CC /* IndicatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorType.swift; sourceTree = "<group>"; };
+		E0AFA2B5246BCC360032EDD5 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		E0AFA2B7246BCCB00032EDD5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,8 @@
 		3061E45822FC68FB00AFE29A = {
 			isa = PBXGroup;
 			children = (
+				E0AFA2B5246BCC360032EDD5 /* Package.swift */,
+				E0AFA2B7246BCCB00032EDD5 /* README.md */,
 				3061E46422FC68FB00AFE29A /* LoadingButtons */,
 				3061E4CA22FC6AC100AFE29A /* LoadingButtonsDemo */,
 				3061E4DF22FC6AC200AFE29A /* LoadingButtonsDemoUITests */,
